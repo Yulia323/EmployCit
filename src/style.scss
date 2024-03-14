@@ -1,0 +1,74 @@
+@import "./styles/mainPage";
+@import "./styles/media";
+@import "./styles/custom-range";
+@import "./styles/custom-input-file";
+@import "./styles/custom-select";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+
+  input {
+    all: unset;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      all: unset;
+    }
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.73);
+    }
+
+    &:active {
+      color: rgba(255, 255, 255, 0.52);
+    }
+  }
+
+  button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+}
+
+input::placeholder {
+  opacity: 1;
+  color: #272733;
+}
+
+.text_blue {
+  color: #42A9ED;
+}
+
+.btn {
+  border-radius: 4px;
+  height: 43px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: 1px solid #6F6D7B;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.btn:hover {
+  background: #4c4d70;
+  color: #FFFFFF;
+}
+
+.btn:active {
+  background: #eaf7ff;
+  color: black;
+  border: 1px solid #4c4d70;
+}
+
+.btn_blue {
+  border-color: #FFFFFF;
+  background: #3E9CDC;
+  color: #FFFFFF;
+}

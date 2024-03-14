@@ -1,0 +1,56 @@
+//custom range
+.range-input {
+  -webkit-appearance: none;
+  width: 100%;
+}
+
+.range-input::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: #42A9ED;
+  margin-top: -6px;
+}
+
+
+.range-input::-moz-range-thumb {
+  cursor: pointer;
+  background: #42A9ED;
+  border: 3px solid #286690;
+  border-radius: 50%;
+}
+
+.range-input::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+.range-input::-moz-range-track {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+.range-input::-ms-track {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+.range-input::-ms-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #42A9ED;
+  margin-top: -6px;
+}
