@@ -23,8 +23,16 @@
 }
 
 @media (max-width: 1024px) {
+  .section-main {
+    padding-bottom: 50px;
+  }
+
+  .background-tint {
+    background-color: rgba(0, 0, 0, .7);
+    background-blend-mode: multiply;
+  }
+
   .container {
-    background: rgba(0, 0, 0, 0.7);
     color: #ffffff;
   }
 
