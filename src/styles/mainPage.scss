@@ -50,6 +50,7 @@
 
 .section-main {
   padding-top: 203px;
+  padding-bottom: 105px;
 
   &__title {
     text-transform: uppercase;
@@ -76,7 +77,7 @@
   }
 
   &__btns {
-    margin: 80px 0 160px 0;
+    margin-top: 160px;
     display: flex;
 
     .btn {
