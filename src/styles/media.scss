@@ -5,8 +5,8 @@
 }
 
 @media (max-width: 1600px) {
-  .section-order__item::after {
-    left: 138px;
+  .section-order__item::before {
+    left: 135px;
   }
 
   .container {
@@ -42,10 +42,6 @@
 
   .header__menu-link {
     margin-right: 20px;
-  }
-
-  .section-order__item::after {
-    left: 134px;
   }
 
   .section-order__item {

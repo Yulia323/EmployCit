@@ -210,8 +210,8 @@
   }
 }
 @media (max-width: 1600px) {
-  .section-order__item::after {
-    left: 138px;
+  .section-order__item::before {
+    left: 135px;
   }
   .container {
     padding-left: 10%;
@@ -240,9 +240,6 @@
   }
   .header__menu-link {
     margin-right: 20px;
-  }
-  .section-order__item::after {
-    left: 134px;
   }
   .section-order__item-text {
     font-size: 12px;
